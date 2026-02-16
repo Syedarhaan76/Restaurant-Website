@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu-Gulmolas Coffee & Food</title>
+     <!-- Favicon -->
+  <link rel="shortcut icon" href="/Assets/favicon.png" type="image/svg+xml">
+  <!-- Google Fonts Link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+  <!-- cdn icons Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Link For external css -->
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+     <!-- Top Bar -->
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <i class="fa-solid fa-location-dot"></i>
+        </div>
+
+        <span class="span">
+          Main Rd, Usmanabad, Bemina,Opp:Govt Degree College Bemina, Srinagar, Jammu and Kashmir
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">Daily : 8.00 am to 10.00 pm</span>
+      </div>
+
+      <a href="tel:+917780889134" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+        <span class="span">+917780889134</span>
+      </a>
+      <div class="separator"></div>
+
+      <a href="gulmolas@gmail.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+        <span class="span">gulmolas@restaurant.com</span>
+      </a>
+
+    </div>
+  </div>
+    <!-- Header -->
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="/Assets/favicon.png" width="70" height="10" alt="Gulmolas-Home">
+        <h3 style="color: rgb(15, 163, 15) ; font-size: 15px;">GULMOLAS</h3>
+        <h4 style="color: palevioletred; font-size: 15px;">COFFEE & FOOD</h4>
+      </a>
+      <nav class="navbar" data-navbar>
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+        <a href="#" class="logo">
+          <img src="/Assets/favicon.png" width="160" height="50" alt="Gulmolas - Home">
+        </a>
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="/index.html" class="navbar-link hover-underline ">
+              <div class="separator"></div>
+
+              <span class="span">Home</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#menu" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">Menus</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="../../index.html#about" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">About Us</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./our-chef.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Our Chefs</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="../Pages/contactUs.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Contact</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Visit Us</p>
+
+          <address class="body-4">
+            Main Rd Usmanabad,Bemina Opp:Govt Degree College,Bemina <br>
+            Srinagar, Jammu and Kashmir
+          </address>
+
+          <p class="body-4 navbar-text">Open: 09:30 am - 10:00pm</p>
+
+          <a href="mailto:booking@grilli.com" class="body-4 sidebar-link">gulmolas@gmail.com</a>
+
+          <div class="separator"></div>
+
+          <p class="contact-label">Booking Request</p>
+
+          <a href="tel:+88123123456" class="body-1 contact-number hover-underline">
+            +917780889134
+          </a>
+        </div>
+
+      </nav>
+
+      <a href="#" class="btn btn-secondary">
+        <span class="text text-1">Find A Table</span>
+
+        <span class="text text-2" aria-hidden="true">Find A Table</span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+      <div class="overlay" data-nav-toggler data-overlay></div>
+    </div>
+  </header>
+
+  <!-- Menu Section -->
+  <main class="menu_section">
+  <section class="section menu" aria-label="menu-label" id="menu">
+    <div class="container">
+
+      <p class="section-subtitle text-center label-2" style="font-weight: 700;">OUR MENU</p>
+      <ul class="grid-list">
+
+        <li>
+          <div class="menu-card hover:card">
+
+            <div class="menu-txt">
+              <h1>Non-Veg</h1>
+             
+              
+              <div class="title-wrapper">
+                <h3 class="title-3">
+                  <a href="#" class="card-title">Butter chicken Boneless</a>
+                </h3>
+
+                <span class="span title-2">&#x20B9; 500 </span>
+              </div>
+              <p class="card-text label-1">
+                1 (4 pound) chicken, 1 cup buttermilk, 1 teaspoon paprika,salt and pepper to taste.
+              </p>
+            </div>
+
+          </div>
+        </li>
+
+        <li>
+          <div class="menu-card hover:card">
+            <div>
+              <h1 style="text-align: center; color:rgb(173, 143, 67);">Veg</h1>
+              <div class="title-wrapper">
+                <h3 class="title-3">
+                  <a href="#" class="card-title">Veg Fried Rice</a>
+                </h3>
+
+               
+
+                <span class="span title-2">&#x20B9; 250</span>
+              </div>
+              <p class="card-text label-1">
+                Avocados with crab meat, red onion, crab salad stuffed red bell pepper and green bell pepper.
+              </p>
+            </div>
+
+          </div>
+        </li>
+
+        <li>
+          <div class="menu-card hover:card">
+
+
+            <div>
+
+              <div class="title-wrapper">
+                <h3 class="title-3">
+                  <a href="#" class="card-title">Chicken Kali Mirch</a>
+                </h3>
+
+                <span class="span title-2">&#x20B9; &nbsp; &nbsp; &nbsp; 450</span>
+
+              </div>
+              <p class="card-text label-1">
+                Avocados with crab meat, red onion, crab salad stuffed red bell pepper and green bell pepper.
+              </p>
+
+            </div>
+
+          </div>
+        </li>
+
+        <div class="menu-card hover:card">
+
+
+          <div>
+
+            <div class="title-wrapper">
+              <h3 class="title-3">
+                <a href="#" class="card-title">Chicken Kali Mirch</a>
+              </h3>
+
+              <span class="span title-2">&#x20B9; &nbsp; &nbsp; &nbsp; 450</span>
+
+            </div>
+            <p class="card-text label-1">
+              Avocados with crab meat, red onion, crab salad stuffed red bell pepper and green bell pepper.
+            </p>
+
+          </div>
+
+        </div>
+      </li>
+
+      <div class="menu-card hover:card">
+
+
+        <div>
+
+          <div class="title-wrapper">
+            <h3 class="title-3">
+              <a href="#" class="card-title">Chicken Kali Mirch</a>
+            </h3>
+
+            <span class="span title-2">&#x20B9; &nbsp; &nbsp; &nbsp; 450</span>
+
+          </div>
+          <p class="card-text label-1">
+            Avocados with crab meat, red onion, crab salad stuffed red bell pepper and green bell pepper.
+          </p>
+
+        </div>
+
+      </div>
+    </li>
+
+    <div class="menu-card hover:card">
+
+
+      <div>
+
+        <div class="title-wrapper">
+          <h3 class="title-3">
+            <a href="#" class="card-title">Chicken Kali Mirch</a>
+          </h3>
+
+          <span class="span title-2">&#x20B9; &nbsp; &nbsp; &nbsp; 450</span>
+
+        </div>
+        <p class="card-text label-1">
+          Avocados with crab meat, red onion, crab salad stuffed red bell pepper and green bell pepper.
+        </p>
+
+      </div>
+
+    </div>
+  </li>
+
+  <div class="menu-card hover:card">
+
+
+    <div>
+
+      <div class="title-wrapper">
+        <h3 class="title-3">
+          <a href="#" class="card-title">Chicken Kali Mirch</a>
+        </h3>
+
+        <span class="span title-2">&#x20B9; &nbsp; &nbsp; &nbsp; 450</span>
+
+      </div>
+      <p class="card-text label-1">
+        Avocados with crab meat, red onion, crab salad stuffed red bell pepper and green bell pepper.
+      </p>
+
+    </div>
+
+  </div>
+</li>
+
+<div class="menu-card hover:card">
+
+
+  <div>
+
+    <div class="title-wrapper">
+      <h3 class="title-3">
+        <a href="#" class="card-title">Chicken Kali Mirch</a>
+      </h3>
+
+      <span class="span title-2">&#x20B9; &nbsp; &nbsp; &nbsp; 450</span>
+
+    </div>
+    <p class="card-text label-1">
+      Avocados with crab meat, red onion, crab salad stuffed red bell pepper and green bell pepper.
+    </p>
+
+  </div>
+
+</div>
+</li>
+
+<div class="menu-card hover:card">
+
+
+  <div>
+
+    <div class="title-wrapper">
+      <h3 class="title-3">
+        <a href="#" class="card-title">Chicken Kali Mirch</a>
+      </h3>
+
+      <span class="span title-2">&#x20B9; &nbsp; &nbsp; &nbsp; 450</span>
+
+    </div>
+    <p class="card-text label-1">
+      Avocados with crab meat, red onion, crab salad stuffed red bell pepper and green bell pepper.
+    </p>
+
+  </div>
+
+</div>
+</li>
+
+<div class="menu-card hover:card">
+
+
+  <div>
+
+    <div class="title-wrapper">
+      <h3 class="title-3">
+        <a href="#" class="card-title">Chicken Kali Mirch</a>
+      </h3>
+
+      <span class="span title-2">&#x20B9; &nbsp; &nbsp; &nbsp; 450</span>
+
+    </div>
+    <p class="card-text label-1">
+      Avocados with crab meat, red onion, crab salad stuffed red bell pepper and green bell pepper.
+    </p>
+
+  </div>
+
+</div>
+</li>
+
+<div class="menu-card hover:card">
+
+
+  <div>
+
+    <div class="title-wrapper">
+      <h3 class="title-3">
+        <a href="#" class="card-title">Chicken Kali Mirch</a>
+      </h3>
+
+      <span class="span title-2">&#x20B9; &nbsp; &nbsp; &nbsp; 450</span>
+
+    </div>
+    <p class="card-text label-1">
+      Avocados with crab meat, red onion, crab salad stuffed red bell pepper and green bell pepper.
+    </p>
+
+  </div>
+
+</div>
+</li>
+
+<div class="menu-card hover:card">
+
+
+  <div>
+
+    <div class="title-wrapper">
+      <h3 class="title-3">
+        <a href="#" class="card-title">Chicken Kali Mirch</a>
+      </h3>
+
+      <span class="span title-2">&#x20B9; &nbsp; &nbsp; &nbsp; 450</span>
+
+    </div>
+    <p class="card-text label-1">
+      Avocados with crab meat, red onion, crab salad stuffed red bell pepper and green bell pepper.
+    </p>
+
+  </div>
+
+</div>
+</li>
+
+        <li>
+          <div class="menu-card hover:card">
+
+
+            <div>
+
+              <div class="title-wrapper">
+                <h3 class="title-3">
+                  <a href="#" class="card-title">Veg Biryani</a>
+                </h3>
+                <span class="span title-2">&#x20B9; 200</span>
+              </div>
+
+              <p class="card-text label-1">
+                Avocados with crab meat, red onion, crab salad stuffed red bell pepper and green bell pepper.
+              </p>
+
+            </div>
+
+          </div>
+        </li>
+
+        <li>
+          <div class="menu-card hover:card">
+
+          
+
+            <div>
+
+              <div class="title-wrapper">
+                <h3 class="title-3">
+                  <a href="#" class="card-title">Chicken Fry</a>
+                </h3>
+
+                <span class="span title-2">&#x20B9; 500</span>
+              </div>
+
+              <p class="card-text label-1">
+                1 (4 pound) chicken, 1 cup buttermilk, 1 teaspoon paprika,salt and pepper to taste.
+              </p>
+
+            </div>
+
+          </div>
+        </li>
+
+        <li>
+          <div class="menu-card hover:card">
+
+            <div>
+
+              <div class="title-wrapper">
+                <h3 class="title-3">
+                  <a href="#" class="card-title">Veg Chawmin</a>
+                </h3>
+
+                <span class="span title-2">&#x20B9; 350</span>
+              </div>
+
+              <p class="card-text label-1">
+                1 (4 pound) chicken, 1 cup buttermilk, 1 teaspoon paprika,salt and pepper to taste.
+              </p>
+
+            </div>
+
+          </div>
+        </li>
+        <li>
+          <div class="menu-card hover:card">
+
+            <div>
+
+              <div class="title-wrapper">
+                <h3 class="title-3">
+                  <a href="#" class="card-title">Veg Chawmin</a>
+                </h3>
+
+                <span class="span title-2">&#x20B9; 350</span>
+              </div>
+
+              <p class="card-text label-1">
+                1 (4 pound) chicken, 1 cup buttermilk, 1 teaspoon paprika,salt and pepper to taste.
+              </p>
+
+            </div>
+
+          </div>
+        </li>
+
+      </ul>
+
+     
+
+      <img src="/Assets/shape-5.png" width="921" height="1036" loading="lazy" alt="shape"
+        class="shape shape-2 move-anim">
+      <img src="/Assets/shape-6.png" width="343" height="345" loading="lazy" alt="shape"
+        class="shape shape-3 move-anim">
+
+    </div>
+  </section>
+</main>
+
+<!----------------------------------------------------------------Footer-------------------------------------------------------------->
+<footer class="footer section has-bg-image text-center"
+style="background-image: url('../images/footer-bg.jpg')">
+<div class="container">
+
+  <div class="footer-top grid-list">
+
+    <div class="footer-brand has-before has-after">
+
+      <a href="#" class="logo">
+        <img src="/Assets/GML.png" width="160" height="50" loading="lazy" alt="gulmolas home">
+      </a>
+
+      <address class="body-4">
+        Usmanabad, Bemina, Srinagar, Jammu & Kashmuir
+      </address>
+
+      <a href="gulmolas@gmail.com"  class="body-4 contact-link" >gulmolas@gmail.com</a>
+
+      <a href="tel:+917780889134" class="body-4 contact-link">Booking Request : +917780889134</a>
+
+      <p class="body-4">
+        Open : 09:00 am - 10:00 pm
+      </p>
+
+
+
+      <p class="title-1">Get News & Offers</p>
+
+      <p class="label-1">
+        Subscribe us & Get <span class="span">10% Off.</span>
+      </p>
+
+      <form action="" class="input-wrapper">
+        <div class="icon-wrapper">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+          <input type="email" name="email_address" placeholder="Your email" autocomplete="off" class="input-field" required>
+        </div>
+
+        <button type="submit" class="btn btn-primary">
+          <span class="text text-1">Subscribe</span>
+
+          <span class="text text-2" aria-hidden="true">Subscribe</span>
+        </button>
+      </form>
+
+    </div>
+
+    <ul class="footer-list">
+
+      <li>
+        <a href="#" class="label-2 footer-link hover-underline">Home</a>
+      </li>
+
+      <li>
+        <a href="#" class="label-2 footer-link hover-underline">Menus</a>
+      </li>
+
+      <li>
+        <a href="#" class="label-2 footer-link hover-underline">About Us</a>
+      </li>
+
+      <li>
+        <a href="#" class="label-2 footer-link hover-underline">Our Chefs</a>
+      </li>
+
+      <li>
+        <a href="#" class="label-2 footer-link hover-underline">Contact</a>
+      </li>
+
+    </ul>
+
+    <ul class="footer-list">
+
+      <li>
+        <a href="#" class="label-2 footer-link hover-underline">Facebook</a>
+      </li>
+
+      <li>
+        <a href="https://www.instagram.com/gulmolas_food_and_coffee/" target="_blank"
+          class="label-2 footer-link hover-underline">Instagram</a>
+      </li>
+
+      <li>
+        <a href="#" class="label-2 footer-link hover-underline">Twitter</a>
+      </li>
+
+      <li>
+        <a href="https://youtube.com/shorts/bOt_srki4HA?si=P7eZzGB9TQV3VSYq" class="label-2 footer-link hover-underline">Youtube</a>
+      </li>
+
+      <li>
+        <a href="https://www.google.com/maps/dir//Main+Rd+Bemina,+Usmanabad,+Bemina,+Srinagar,+Jammu+and+Kashmir+190018/@34.0788741,74.6986611,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x38e18f51c220117d:0xab00a7f90f657389!2m2!1d74.7810441!2d34.0789197?entry=ttu"
+          target="_blank" class="label-2 footer-link hover-underline">Google Map</a>
+      </li>
+
+    </ul>
+
+  </div>
+
+  <div class="footer-bottom">
+
+    <p class="copyright">
+      &copy; 2024 Gulmolas Coffee & Food. All Rights Reserved | Designed & Developed by <a
+        href="https://github.com/syedarhaan76" target="_blank" class="link">Syed Muzamil Qadri</a>
+    </p>
+
+  </div>
+
+</div>
+</footer>
+
+
+   <script src="../javascript/index.js"></script>
+</body>
+</html>

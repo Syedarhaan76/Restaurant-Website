@@ -1,0 +1,185 @@
+/* HERO */
+.chef-hero {
+  height: 70vh;
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.85)),
+              url('../../Assets/chef-bg.jpg') center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 3.2rem;
+  color: #ff69b4;
+}
+
+.hero-content p {
+  margin-top: 10px;
+  color: #ccc;
+}
+
+/* CHEF SECTION */
+.chef-section {
+  padding: 80px 100px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  background: #0f0f0f;
+}
+
+.chef-card {
+  background: #1a1a1a;
+  border-radius: 18px;
+  overflow: hidden;
+  transition: 0.4s;
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.chef-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 30px #ff69b4;
+}
+
+.chef-img {
+  position: relative;
+}
+
+.chef-img img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  transition: 0.5s;
+}
+
+.chef-card:hover img {
+  transform: scale(1.08);
+}
+
+.experience {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  background: gold;
+  color: #000;
+  padding: 6px 12px;
+  font-size: 0.8rem;
+  border-radius: 20px;
+}
+
+.chef-info {
+  padding: 25px;
+  text-align: center;
+}
+
+.chef-info h3 {
+  color: #fff;
+}
+
+.chef-info span {
+  color: gold;
+  font-size: 0.9rem;
+}
+
+.chef-info p {
+  margin-top: 10px;
+  color: #aaa;
+  line-height: 1.6;
+}
+
+/* PHILOSOPHY */
+.chef-philosophy {
+  padding: 80px 20px;
+  text-align: center;
+  background: #111;
+}
+
+.chef-philosophy h2 {
+  color: #ff69b4;
+  margin-bottom: 20px;
+}
+
+.chef-philosophy p {
+  max-width: 700px;
+  margin: auto;
+  color: #bbb;
+}
+
+/* SIGNATURE */
+.signature-section {
+  padding: 80px 100px;
+  background: #0f0f0f;
+  text-align: center;
+}
+
+.signature-section h2 {
+  color: #ff69b4;
+  margin-bottom: 40px;
+}
+
+.signature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.signature-card {
+  background: #1a1a1a;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: 0.4s;
+}
+
+.signature-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 20px gold;
+}
+
+.signature-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.signature-card h4 {
+  padding: 20px;
+  color: #fff;
+}
+
+/* CTA */
+.chef-cta {
+  padding: 80px 20px;
+  text-align: center;
+  background: #111;
+}
+
+.chef-cta h2 {
+  color: #ff69b4;
+  margin-bottom: 25px;
+}
+
+.cta-btn {
+  padding: 12px 30px;
+  background: #4CAF50;
+  color: #fff;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.cta-btn:hover {
+  background: #ff69b4;
+}
+
+/* Responsive */
+@media(max-width:768px){
+  .chef-section,
+  .signature-section {
+    padding: 60px 20px;
+  }
+
+  .hero-content h1 {
+    font-size: 2.2rem;
+  }
+}
